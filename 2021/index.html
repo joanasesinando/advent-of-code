@@ -1,0 +1,172 @@
+<!-- ===================================================================
+ *
+ *  Advent of Code | 2021
+ *  Last updated: 02-12-2021
+ *
+ * =================================================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+
+        <!-- Basic Page Needs
+   	    ================================================== -->
+        <meta charset="utf-8" />
+        <title>Advent of Code | 2021</title>
+        <meta name="author" content="Joana Sesinando">
+
+        <!-- Mobile & Compatibility Metas
+ 	    ================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Fonts
+  	    ================================================== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Icons
+  	    ================================================== -->
+	    <link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+
+        <!-- Styles
+  	    ================================================== -->
+        <link href="./style.css" rel="stylesheet">
+
+        <!-- Scripts
+  	    ================================================== -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+    </head>
+
+    <body class="is-boxed has-animations">
+
+        <div class="body-wrap boxed-container">
+            <main>
+                <section class="advent section text-center" id="section-advent">
+                    <div class="container">
+                        <div class="advent-title is-revealing">
+                            <h1 class="section-title">Advent of Code 2021</h2>
+                            <p class="section-subtitle text-center">Upload an input file and select an advent day to run the code. <br/>I used <strong>JavaScript</strong> to solve the puzzles.</p>
+                        </div>
+
+                        <div class="advent-input input-form field field-grouped is-revealing">
+                            <div class="control control-expanded">
+                                <label id="input-label" class="label" for="input">Upload file...</label>
+                                <input class="input" type="file" id="input" name="input" accept=".txt">
+                            </div>
+                            <div class="control">
+                                <a class="button button-primary button-block button-shadow" href="#">Upload puzzle input</a>
+                            </div>
+                        </div>
+
+                        <div class="advent-inner section-inner has-bottom-divider">
+                            <div class="advent-wrap">
+
+                                <div class="timeline">
+                                    <!-- Day 1 -->
+                                    <div class="timeline-item is-revealing">
+                                        <button class="timeline-item-inner purple" onclick="run(1)">
+                                            <div class="timeline-item-icon">
+                                                <img src="assets/blob_purple.svg" alt="blob">
+                                                <span>1</span>
+                                            </div>
+                                            <div class="timeline-item-text">Sonar Sweep</div>
+                                        </button>
+                                    </div>
+
+                                    <!-- Day 2 -->
+                                    <div class="timeline-item is-revealing">
+                                        <button class="timeline-item-inner pink" onclick="run(2)">
+                                            <div class="timeline-item-icon">
+                                                <img src="assets/blob_pink.svg" alt="blob">
+                                                <span>2</span>
+                                            </div>
+                                            <div class="timeline-item-text">Dive!</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="container-sm d-flex aligh-items-center justify-content-center is-revealing" style="margin-top: 20px;">
+                    <span style="margin-right: 10px;">by Joana Sesinando | </span>
+                    <a class="repository d-flex align-items-center" href="https://github.com/joanasesinando/advent-of-code" target="_blank">
+                        <i class="lni lni-github-original mr-3"></i>See code
+                    </a>
+                </div>
+
+                <div class="go-top" id="goTopBtn">
+                    <i class="lni lni-arrow-up"></i>
+                </div>
+            </main>
+        </div>
+
+        <div id="alert-success" role="alert" onclick="hide('alert-success')" class="alert alert-success">
+            <p class="alert-text"></p>
+        </div>
+
+        <div id="alert-error" role="alert" onclick="hide('alert-error')" class="alert alert-error">
+            <p class="alert-text"></p>
+        </div>
+
+        <script>
+            function includeScript(path) {
+                const script = document.createElement("script");
+                script.src = path;
+                script.type = "text/javascript";
+                document.getElementsByTagName("head")[0].appendChild(script);
+            }
+
+            function run(day) {
+                const file = document.getElementById("input").files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.readAsText(file, "utf-8");
+                    reader.onload = e => window["runDay" + day](e.target.result);
+                    reader.onerror = event => console.error("Error reading file.");
+
+                } else {
+                    showAlert("error", "Upload a file with a puzzle input first.");
+                }
+            }
+
+            function hide(id) {
+                    document.getElementById(id).style.display = "none";
+                }
+
+                function show(id) {
+                    document.getElementById(id).style.display = "block";
+                }
+
+            function showAlert(type, text) {
+                document.getElementById("alert-" + type).innerHTML = text;
+                show("alert-" + type);
+                setTimeout(() => hide("alert-" + type), type === "error" ? 6000 : 10000);
+            }
+
+            // Include advent days' scripts
+            for (i = 1; i <= 25; i++) {
+                includeScript("./day" + i + "/script.js");
+            }
+
+            // Init scroll reveal
+            ScrollReveal().reveal(".is-revealing");
+
+            // Trigger file upload
+            document.getElementsByClassName("advent-input")[0].addEventListener("click", () => {
+                document.getElementById("input").click();
+            });
+
+            // Subscribe to file upload
+            document.getElementById("input").addEventListener("change", (event) => {
+                const file = document.getElementById("input").files[0];
+                if (file) document.getElementById("input-label").innerHTML = file.name;
+            });
+        </script>
+    </body>
+</html>
