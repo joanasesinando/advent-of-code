@@ -13,6 +13,7 @@ function runDay1(input) {
             previous = n;
         });
 
+        console.log("Result - p1: " + res);
         return res;
     }
     
@@ -28,6 +29,7 @@ function runDay1(input) {
             previous = total;
         });
 
+        console.log("Result - p2: " + res);
         return res;
     }
 }

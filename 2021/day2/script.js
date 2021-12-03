@@ -17,6 +17,7 @@ function runDay2(input) {
             else if (move === "up") depth -= steps;
         });
 
+        console.log("Result - p1: " + horizontal * depth);
         return horizontal * depth;
     }
     
@@ -35,6 +36,7 @@ function runDay2(input) {
             else if (move === "up") aim -= steps;
         });
 
+        console.log("Result - p2: " + horizontal * depth);
         return horizontal * depth;
     }
 }
