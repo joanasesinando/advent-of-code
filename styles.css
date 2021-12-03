@@ -1638,11 +1638,13 @@ label {
 }
 
 .body-wrap {
+	position: relative;
 	background: #fff;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh
+	min-height: 100vh;
+	z-index: 0;
 }
 
 .boxed-container {
@@ -1710,10 +1712,12 @@ main {
 
 footer {
 	position: fixed;
+	background-color: white;
 	bottom: 0;
 	width: 100%;
 	padding: 15px 0;
 	box-shadow: 0 16px 48px #e3e7eb;
+	z-index: 10;
 }
 
 .advent-years .row {
