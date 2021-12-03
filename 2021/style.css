@@ -1528,12 +1528,15 @@ label {
     font-weight: 500;
 }
 
-.timeline-item:nth-of-type(even) .timeline-item-icon span {
-    right: 15px;
+.timeline-item .timeline-item-icon span {
+    left: 30px;
 }
 
-.timeline-item:nth-of-type(odd) .timeline-item-icon span {
-    left: 30px;
+@media (min-width: 640px) {
+	.timeline-item:nth-of-type(even) .timeline-item-icon span {
+		right: 15px;
+		left: initial;
+	}
 }
 
 .timeline-item-icon img {
