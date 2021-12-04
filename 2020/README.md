@@ -7,8 +7,8 @@
 | ✔ [Day 1: Report Repair](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day1)| 🌟 | 🌟 |
 | ✔ [Day 2: Password Philosophy](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day2)| 🌟 | 🌟 |
 | ✔ [Day 3: Toboggan Trajectory](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day3)| 🌟 | 🌟 |
-| [Day 4: TBD]()| | |
-| [Day 5: TBD]()| | |
+| ✔ [Day 4: Passport Processing](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day4)| 🌟 | 🌟 |
+| ✔ [Day 5: Binary Boarding](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day5)| 🌟 | 🌟 |
 | [Day 6: TBD]()| | |
 | [Day 7: TBD]()| | |
 | [Day 8: TBD]()| | |
