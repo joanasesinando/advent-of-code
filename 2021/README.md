@@ -7,7 +7,7 @@
 | ✔ [Day 1: Sonar Sweep](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day1)| 🌟 | 🌟 |
 | ✔ [Day 2: Dive!](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day2)| 🌟 | 🌟 |
 | ✔ [Day 3: Binary Diagnostic](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day3)| 🌟 | 🌟 |
-| [Day 4: TBD]()| | |
+| ✔ [Day 4: Giant Squid](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day4)| 🌟 | 🌟 |
 | [Day 5: TBD]()| | |
 | [Day 6: TBD]()| | |
 | [Day 7: TBD]()| | |
