@@ -167,7 +167,7 @@
                 if (file) {
                     const reader = new FileReader();
                     reader.readAsText(file, "utf-8");
-                    reader.onload = e => window["runDay" + day](e.target.result);
+                    reader.onload = e => window["runDay" + day](e.target.result.replaceAll("\r", ""));
                     reader.onerror = event => console.error("Error reading file.");
 
                 } else {
