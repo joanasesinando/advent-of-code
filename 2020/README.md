@@ -9,7 +9,7 @@
 | ✔ [Day 3: Toboggan Trajectory](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day3)| 🌟 | 🌟 |
 | ✔ [Day 4: Passport Processing](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day4)| 🌟 | 🌟 |
 | ✔ [Day 5: Binary Boarding](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day5)| 🌟 | 🌟 |
-| [Day 6: TBD]()| | |
+| ✔ [Day 6: Custom Customs](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day6)| 🌟 | 🌟 |
 | [Day 7: TBD]()| | |
 | [Day 8: TBD]()| | |
 | [Day 9: TBD]()| | |
