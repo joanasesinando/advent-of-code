@@ -26,23 +26,23 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 6: Custom Customs](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day6)| 🌟 | 🌟 |
 | ✔ [Day 7: Handy Haversacks](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day7)| 🌟 | 🌟 |
 | ✔ [Day 8: Handheld Halting](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day8)| 🌟 | 🌟 |
-| [Day 9: TBD]()| | |
-| [Day 10: TBD]()| | |
-| [Day 11: TBD]()| | |
-| [Day 12: TBD]()| | |
-| [Day 13: TBD]()| | |
-| [Day 14: TBD]()| | |
-| [Day 15: TBD]()| | |
-| [Day 16: TBD]()| | |
-| [Day 17: TBD]()| | |
-| [Day 18: TBD]()| | |
-| [Day 19: TBD]()| | |
-| [Day 20: TBD]()| | |
-| [Day 21: TBD]()| | |
-| [Day 22: TBD]()| | |
-| [Day 23: TBD]()| | |
-| [Day 24: TBD]()| | |
-| [Day 25: TBD]()| | |
+| [Day 9: Encoding Error]()| | |
+| [Day 10: Adapter Array]()| | |
+| [Day 11: Seating System]()| | |
+| [Day 12: Rain Risk]()| | |
+| [Day 13: Shuttle Search]()| | |
+| [Day 14: Docking Data]()| | |
+| [Day 15: Rambunctious Recitation]()| | |
+| [Day 16: Ticket Translation]()| | |
+| [Day 17: Conway Cubes]()| | |
+| [Day 18: Operation Order]()| | |
+| [Day 19: Monster Messages]()| | |
+| [Day 20: Jurassic Jigsaw]()| | |
+| [Day 21: Allergen Assessment]()| | |
+| [Day 22: Crab Combat]()| | |
+| [Day 23: Crab Cups]()| | |
+| [Day 24: Lobby Layout]()| | |
+| [Day 25: Combo Breaker]()| | |
 
 ## Visit
 - http://adventofcode.com/2020
