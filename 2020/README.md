@@ -1,6 +1,7 @@
 # Advent of Code 2020
 
 I used **JavaScript** to solve the puzzles.
+
 A solution checker is available here: <https://tinyurl.com/advent-of-code-js/2020>.
 
 ## Story
