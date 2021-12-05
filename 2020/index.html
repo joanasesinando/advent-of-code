@@ -1,6 +1,7 @@
 <!-- ===================================================================
  *
  *  Advent of Code | 2020
+ *  By Joana Sesinando
  *
  * =================================================================== -->
 
@@ -44,14 +45,22 @@
 
         <div class="body-wrap boxed-container">
             <main>
-                <a href="../"><i class="home-icon lni lni-home"></i></a>
+
+                <!-- Home button -->
+                <a href="../">
+                    <i class="home-icon lni lni-home"></i>
+                </a>
+
                 <section class="advent section text-center" id="section-advent">
                     <div class="container">
+
+                        <!-- Title -->
                         <div class="advent-title is-revealing">
                             <h1 class="section-title">2020</h2>
                             <p class="section-subtitle text-center">Upload an input file and select an advent day to run the code. <br/>I used <strong>JavaScript</strong> to solve the puzzles.</p>
                         </div>
 
+                        <!-- Puzzle input -->
                         <div class="advent-input input-form field field-grouped is-revealing">
                             <div class="control control-expanded">
                                 <label id="input-label" class="label" for="input">Upload file...</label>
@@ -62,10 +71,12 @@
                             </div>
                         </div>
 
+                        <!-- Advent calendar -->
                         <div class="advent-inner section-inner">
                             <div class="advent-wrap">
 
                                 <div class="timeline">
+
                                     <!-- Day 1 -->
                                     <div class="timeline-item is-revealing">
                                         <button class="timeline-item-inner purple" onclick="run(1)">
@@ -142,6 +153,18 @@
                                             <div class="timeline-item-text">Handy Haversacks</div>
                                         </button>
                                     </div>
+
+                                    <!-- Day 8 -->
+                                    <div class="timeline-item is-revealing">
+                                        <button class="timeline-item-inner pink" onclick="run(8)">
+                                            <div class="timeline-item-icon">
+                                                <img src="../assets/blob_pink.svg" alt="blob">
+                                                <span>8</span>
+                                            </div>
+                                            <div class="timeline-item-text">Handheld Halting</div>
+                                        </button>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -150,6 +173,7 @@
             </main>
         </div>
 
+        <!-- Credits & Repository -->
         <footer class="d-flex align-items-center justify-content-center">
             <span style="margin-right: 10px;">by Joana Sesinando | </span>
             <a class="repository d-flex align-items-center" href="https://github.com/joanasesinando/advent-of-code" target="_blank">
@@ -157,6 +181,8 @@
             </a>
          </footer>
 
+
+        <!-- Alerts -->
         <div id="alert-success" role="alert" onclick="hide('alert-success')" class="alert alert-success">
             <p class="alert-text"></p>
         </div>
@@ -165,44 +191,13 @@
             <p class="alert-text"></p>
         </div>
 
+
         <script>
-            function includeScript(path) {
-                const script = document.createElement("script");
-                script.src = path;
-                script.type = "text/javascript";
-                document.getElementsByTagName("head")[0].appendChild(script);
-            }
-
-            function run(day) {
-                const file = document.getElementById("input").files[0];
-                if (file) {
-                    const reader = new FileReader();
-                    reader.readAsText(file, "utf-8");
-                    reader.onload = e => window["runDay" + day](e.target.result.replaceAll("\r", ""));
-                    reader.onerror = event => console.error("Error reading file.");
-
-                } else {
-                    showAlert("error", "Upload a file with a puzzle input first.");
-                }
-            }
-
-            function hide(id) {
-                    document.getElementById(id).style.display = "none";
-                }
-
-                function show(id) {
-                    document.getElementById(id).style.display = "block";
-                }
-
-            function showAlert(type, text) {
-                document.getElementById("alert-" + type).innerHTML = text;
-                show("alert-" + type);
-                setTimeout(() => hide("alert-" + type), type === "error" ? 6000 : 10000);
-            }
+            YEAR = 2020;
 
             // Include advent days' scripts
             for (i = 1; i <= 25; i++) {
-                includeScript("./day" + i + "/script.js");
+                includeScript("./day-" + numberWith2Digits(i) + "/script.js");
             }
 
             // Init scroll reveal
@@ -218,6 +213,51 @@
                 const file = document.getElementById("input").files[0];
                 if (file) document.getElementById("input-label").innerHTML = file.name;
             });
+
+
+
+            // ------------------------------------ //
+            // --------- HELPER FUNCTIONS --------- //
+            // ------------------------------------ //
+
+            function includeScript(path) {
+                const script = document.createElement("script");
+                script.src = path;
+                script.type = "text/javascript";
+                document.getElementsByTagName("head")[0].appendChild(script);
+            }
+
+            function run(day) {
+                const file = document.getElementById("input").files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.readAsText(file, "utf-8");
+                    reader.onload = e => window["run_" + YEAR + "_" + numberWith2Digits(day)](e.target.result.replaceAll("\r", ""));
+                    reader.onerror = event => console.error("Error reading file.");
+
+                } else {
+                    showAlert("error", "Upload a file with a puzzle input first.");
+                }
+            }
+
+            function numberWith2Digits(n) {
+                return (n).toLocaleString('en-UK', {minimumIntegerDigits: 2});
+            }
+
+            function hide(id) {
+                document.getElementById(id).style.display = "none";
+            }
+
+            function show(id) {
+                document.getElementById(id).style.display = "block";
+            }
+
+            function showAlert(type, text) {
+                document.getElementById("alert-" + type).innerHTML = text;
+                show("alert-" + type);
+                setTimeout(() => hide("alert-" + type), type === "error" ? 6000 : 10000);
+            }
+
         </script>
     </body>
 </html>
