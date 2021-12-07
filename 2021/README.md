@@ -24,7 +24,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 4: Giant Squid](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day4)| 🌟 | 🌟 |
 | ✔ [Day 5: Hydrothermal Venture](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day5)| 🌟 | 🌟 |
 | ✔ [Day 6: Lanternfish](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day6)| 🌟 | 🌟 |
-| [Day 7: TBD]()| | |
+| ✔ [Day 7: The Treachery of Whales](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day7)| 🌟 | 🌟 |
 | [Day 8: TBD]()| | |
 | [Day 9: TBD]()| | |
 | [Day 10: TBD]()| | |
