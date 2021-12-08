@@ -27,7 +27,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 7: Handy Haversacks](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day7)| 🌟 | 🌟 |
 | ✔ [Day 8: Handheld Halting](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day8)| 🌟 | 🌟 |
 | ✔ [Day 9: Encoding Error](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day9)| 🌟 | 🌟 |
-| [Day 10: Adapter Array]()| | |
+| [Day 10: Adapter Array](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day10)| 🌟 | |
 | [Day 11: Seating System]()| | |
 | [Day 12: Rain Risk]()| | |
 | [Day 13: Shuttle Search]()| | |
