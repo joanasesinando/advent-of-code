@@ -26,7 +26,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 6: Lanternfish](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day6)| 🌟 | 🌟 |
 | ✔ [Day 7: The Treachery of Whales](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day7)| 🌟 | 🌟 |
 | ✔ [Day 8: Seven Segment Search](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day8)| 🌟 | 🌟 |
-| [Day 9: TBD]()| | |
+| ✔ [Day 9: Smoke Basin](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day9)| 🌟 | 🌟 |
 | [Day 10: TBD]()| | |
 | [Day 11: TBD]()| | |
 | [Day 12: TBD]()| | |
