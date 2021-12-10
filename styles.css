@@ -591,39 +591,46 @@ label {
 	left: 20px
 }
 
-.timeline-item:nth-of-type(odd) .timeline-item-icon img,
-.timeline-item:nth-of-type(odd) .timeline-item-icon i,
-.timeline-item:nth-of-type(odd) .timeline-item-icon span {
+.timeline-item .timeline-item-icon img,
+.timeline-item .timeline-item-icon i {
 	left: 18px;
 }
 
-.timeline-item:nth-of-type(odd) .timeline-item-icon span {
+.timeline-item .timeline-item-icon span {
 	left: 15px;
 }
 
 .timeline-item:nth-of-type(1) .timeline-item-icon span,
+.timeline-item:nth-of-type(2) .timeline-item-icon span,
 .timeline-item:nth-of-type(3) .timeline-item-icon span,
+.timeline-item:nth-of-type(4) .timeline-item-icon span,
 .timeline-item:nth-of-type(5) .timeline-item-icon span,
+.timeline-item:nth-of-type(6) .timeline-item-icon span,
 .timeline-item:nth-of-type(7) .timeline-item-icon span,
+.timeline-item:nth-of-type(8) .timeline-item-icon span,
 .timeline-item:nth-of-type(9) .timeline-item-icon span {
 	left: 22px;
 }
 
-.timeline-item:nth-of-type(even) .timeline-item-icon img,
-.timeline-item:nth-of-type(even) .timeline-item-icon i,
-.timeline-item:nth-of-type(even) .timeline-item-icon span {
-	right: 18px;
-}
-
-.timeline-item:nth-of-type(even) .timeline-item-icon span {
-	right: 15px;
-}
-
-.timeline-item:nth-of-type(2) .timeline-item-icon span,
-.timeline-item:nth-of-type(4) .timeline-item-icon span,
-.timeline-item:nth-of-type(6) .timeline-item-icon span,
-.timeline-item:nth-of-type(8) .timeline-item-icon span {
-	right: 22px;
+@media (min-width: 640px) {
+	.timeline-item:nth-of-type(even) .timeline-item-icon img,
+	.timeline-item:nth-of-type(even) .timeline-item-icon i {
+		left: initial;
+		right: 18px;
+	}
+	
+	.timeline-item:nth-of-type(even) .timeline-item-icon span {
+		left: initial;
+		right: 15px;
+	}
+	
+	.timeline-item:nth-of-type(2) .timeline-item-icon span,
+	.timeline-item:nth-of-type(4) .timeline-item-icon span,
+	.timeline-item:nth-of-type(6) .timeline-item-icon span,
+	.timeline-item:nth-of-type(8) .timeline-item-icon span {
+		left: initial;
+		right: 22px;
+	}
 }
 
 .timeline-item:nth-of-type(odd) .timeline-item-text {
@@ -666,11 +673,6 @@ label {
 		right: 0;
 		left: 20px;
 		float: left !important
-	}
-	.timeline-item .timeline-item-icon img,
-	.timeline-item .timeline-item-icon i {
-		right: 0;
-		left: 30px
 	}
 	.timeline-item .timeline-item-text {
 		right: 0;
