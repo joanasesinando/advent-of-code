@@ -18,16 +18,16 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 | Day  | Part One | Part Two |
 |---|:---:|:---:|
-| ✔ [Day 1: Report Repair](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day1)| 🌟 | 🌟 |
-| ✔ [Day 2: Password Philosophy](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day2)| 🌟 | 🌟 |
-| ✔ [Day 3: Toboggan Trajectory](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day3)| 🌟 | 🌟 |
-| ✔ [Day 4: Passport Processing](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day4)| 🌟 | 🌟 |
-| ✔ [Day 5: Binary Boarding](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day5)| 🌟 | 🌟 |
-| ✔ [Day 6: Custom Customs](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day6)| 🌟 | 🌟 |
-| ✔ [Day 7: Handy Haversacks](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day7)| 🌟 | 🌟 |
-| ✔ [Day 8: Handheld Halting](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day8)| 🌟 | 🌟 |
-| ✔ [Day 9: Encoding Error](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day9)| 🌟 | 🌟 |
-| [Day 10: Adapter Array](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day10)| 🌟 | |
+| ✔ [Day 1: Report Repair](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day-01)| 🌟 | 🌟 |
+| ✔ [Day 2: Password Philosophy](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day-02)| 🌟 | 🌟 |
+| ✔ [Day 3: Toboggan Trajectory](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day-03)| 🌟 | 🌟 |
+| ✔ [Day 4: Passport Processing](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day-04)| 🌟 | 🌟 |
+| ✔ [Day 5: Binary Boarding](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day-05)| 🌟 | 🌟 |
+| ✔ [Day 6: Custom Customs](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day-06)| 🌟 | 🌟 |
+| ✔ [Day 7: Handy Haversacks](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day-07)| 🌟 | 🌟 |
+| ✔ [Day 8: Handheld Halting](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day-08)| 🌟 | 🌟 |
+| ✔ [Day 9: Encoding Error](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day-09)| 🌟 | 🌟 |
+| [Day 10: Adapter Array](https://github.com/joanasesinando/advent-of-code/tree/master/2020/day-10)| 🌟 | |
 | [Day 11: Seating System]()| | |
 | [Day 12: Rain Risk]()| | |
 | [Day 13: Shuttle Search]()| | |

@@ -22,34 +22,36 @@ function run_2020_10(input) {
     function runP2() { 
         let ratings = parseInput(input).sort((a, b) => a - b);
         ratings.unshift(0);
-        ratings.push(ratings[ratings.length - 1] + 3);
+        const max = ratings[ratings.length - 1] + 3;
+        ratings.push(max);
         console.log("ratings", ratings)
 
-        
-        const count = {1: 1};
-        const possibilities = {};
-        for (let i = 0; i < ratings.length; i++) {
-            possibilities[i] = [ratings[i]];
-        }
+        const possibilities = [0];
+        let res = 1;
+        while (possibilities.length > 0) {
+            const rating = possibilities[0];
 
-        for (let i = 0; i < ratings.length - 1; i++) {
-            const min = possibilities[i][0] + 1;
-            const max = possibilities[i][possibilities[i].length - 1] + 3;
-
-            for (let j = min; j <= max; j++) {
-                if (ratings.includes(j) && !possibilities[i + 1].includes(j)) {
-                    possibilities[i + 1].push(j);
-                    possibilities[i + 1].sort((a, b) => a - b);
-                }
+            const validOptions = [];
+            for (let option = rating + 1; option <= rating + 3; option++) {
+                if (ratings.includes(option)) validOptions.push(option);
             }
-            
-            const len = possibilities[i + 1].length;
-            count[len] = count[len] ? count[len] + 1 : 1;
-        }
-        console.log(count)
-        console.log(possibilities)
 
-        const res =  Object.values(count).reduce((a, b) => a + b) - Object.values(count).length - 1;
+            if (validOptions.length !== 1) {
+                for (const option of validOptions.slice(1)) {
+                    if (option === max || possibilities.includes(option)) continue;
+                    possibilities.push(option);
+                }
+                res = possibilities.length !== 1 ? res + (validOptions.length - 1) : res * validOptions.length;
+            }
+
+            if (validOptions[0] === max || possibilities.includes(validOptions[0])) {
+                possibilities.shift();
+
+            } else {
+                possibilities[0] = validOptions[0];
+            }
+        }
+
         console.log("Result - p2: " + res);
         return res;
     }

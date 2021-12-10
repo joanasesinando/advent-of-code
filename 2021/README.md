@@ -18,16 +18,16 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 | Day  | Part One | Part Two |
 |---|:---:|:---:|
-| ✔ [Day 1: Sonar Sweep](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day1)| 🌟 | 🌟 |
-| ✔ [Day 2: Dive!](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day2)| 🌟 | 🌟 |
-| ✔ [Day 3: Binary Diagnostic](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day3)| 🌟 | 🌟 |
-| ✔ [Day 4: Giant Squid](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day4)| 🌟 | 🌟 |
-| ✔ [Day 5: Hydrothermal Venture](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day5)| 🌟 | 🌟 |
-| ✔ [Day 6: Lanternfish](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day6)| 🌟 | 🌟 |
-| ✔ [Day 7: The Treachery of Whales](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day7)| 🌟 | 🌟 |
-| ✔ [Day 8: Seven Segment Search](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day8)| 🌟 | 🌟 |
-| ✔ [Day 9: Smoke Basin](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day9)| 🌟 | 🌟 |
-| [Day 10: TBD]()| | |
+| ✔ [Day 1: Sonar Sweep](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-01)| 🌟 | 🌟 |
+| ✔ [Day 2: Dive!](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-02)| 🌟 | 🌟 |
+| ✔ [Day 3: Binary Diagnostic](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-03)| 🌟 | 🌟 |
+| ✔ [Day 4: Giant Squid](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-04)| 🌟 | 🌟 |
+| ✔ [Day 5: Hydrothermal Venture](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-05)| 🌟 | 🌟 |
+| ✔ [Day 6: Lanternfish](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-06)| 🌟 | 🌟 |
+| ✔ [Day 7: The Treachery of Whales](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-07)| 🌟 | 🌟 |
+| ✔ [Day 8: Seven Segment Search](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-08)| 🌟 | 🌟 |
+| ✔ [Day 9: Smoke Basin](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-09)| 🌟 | 🌟 |
+| ✔ [Day 10: Syntax Scoring](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-10)| 🌟 | 🌟 |
 | [Day 11: TBD]()| | |
 | [Day 12: TBD]()| | |
 | [Day 13: TBD]()| | |
