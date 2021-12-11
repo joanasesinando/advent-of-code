@@ -8,11 +8,11 @@ If you can model how the smoke flows through the caves, you might be able to avo
 Smoke flows to the lowest point of the area it's in. For example, consider the following heightmap:
 
 ```
-2**1**9994321**0**
+2199943210
 3987894921
-98**5**6789892
+9856789892
 8767896789
-989996**5**678
+9899965678
 ```
 
 Each number corresponds to the height of a particular location, where 9 is the highest and 0 is the lowest a location can be.
@@ -35,8 +35,8 @@ The **size** of a basin is the number of locations within the basin, including t
 The top-left basin, size `3`:
 
 ```
-**21**99943210
-**3**987894921
+2199943210
+3987894921
 9856789892
 8767896789
 9899965678
@@ -45,9 +45,9 @@ The top-left basin, size `3`:
 The top-right basin, size `9`:
 
 ```
-21999**43210**
-398789**4**9**21**
-985678989**2**
+2199943210
+3987894921
+9856789892
 8767896789
 9899965678
 ```
@@ -56,10 +56,10 @@ The middle basin, size `14`:
 
 ```
 2199943210
-39**878**94921
-9**85678**9892
-**87678**96789
-9**8**99965678
+3987894921
+9856789892
+8767896789
+9899965678
 ```
 
 The bottom-right basin, size `9`:
@@ -67,9 +67,9 @@ The bottom-right basin, size `9`:
 ```
 2199943210
 3987894921
-9856789**8**92
-876789**678**9
-98999**65678**
+9856789892
+8767896789
+9899965678
 ```
 
 Find the three largest basins and multiply their sizes together. In the above example, this is `9 * 14 * 9 = 1134`.
