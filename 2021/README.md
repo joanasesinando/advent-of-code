@@ -29,7 +29,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 9: Smoke Basin](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-09)| 🌟 | 🌟 |
 | ✔ [Day 10: Syntax Scoring](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-10)| 🌟 | 🌟 |
 | ✔ [Day 11: Dumbo Octopus](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-11)| 🌟 | 🌟 |
-| [Day 12: TBD]()| | |
+| ✔ [Day 12: Passage Pathing](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-12)| 🌟 | 🌟 |
 | [Day 13: TBD]()| | |
 | [Day 14: TBD]()| | |
 | [Day 15: TBD]()| | |
