@@ -32,7 +32,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 12: Passage Pathing](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-12)| 🌟 | 🌟 |
 | ✔ [Day 13: Transparent Origami](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-13)| 🌟 | 🌟 |
 | ✔ [Day 14: Extended Polymerization](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-14)| 🌟 | 🌟 |
-| [Day 15: TBD]()| | |
+| ✔ [Day 15: Chiton](https://github.com/joanasesinando/advent-of-code/tree/master/2021/day-15)| 🌟 | 🌟 |
 | [Day 16: TBD]()| | |
 | [Day 17: TBD]()| | |
 | [Day 18: TBD]()| | |
